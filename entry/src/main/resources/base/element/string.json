@@ -1,0 +1,56 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "MyApplication"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "otherability_descrition",
+      "value": "otherability_descrition"
+    },
+    {
+      "name": "main_button_text",
+      "value": "Switch Images"
+    },
+    {
+      "name": "main_button_text2",
+      "value": "Show Server Image"
+    },
+    {
+      "name": "secondability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "main_button_text3",
+      "value": "Show Local Image"
+    },
+    {
+      "name": "resourceschangeability_description",
+      "value": "hap sample empty provider"
+    },
+    {
+      "name": "resourceschangeability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "serverability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "localability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "gifability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "listability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:parent_layout"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:change_local_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:bottom_margin="10vp"
+        ohos:text="切换本地资源图片"
+        ohos:text_color="black"
+        ohos:text_font="serif"
+        ohos:text_size="20vp"/>
+
+    <Button
+        ohos:id="$+id:show_server_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:bottom_margin="10vp"
+        ohos:text="展示网络图片"
+        ohos:text_color="black"
+        ohos:text_font="serif"
+        ohos:text_size="20vp"/>
+
+    <Button
+        ohos:id="$+id:show_local_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:bottom_margin="10vp"
+        ohos:text="展示本地图片"
+        ohos:text_color="black"
+        ohos:text_font="serif"
+        ohos:text_size="20vp"
+        ohos:visibility="invisible"/>
+
+
+    <Button
+        ohos:id="$+id:show_gif_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:bottom_margin="10vp"
+        ohos:text="展示gif"
+        ohos:text_color="black"
+        ohos:text_font="serif"
+        ohos:text_size="20vp"/>
+
+    <Button
+        ohos:id="$+id:disk_cache_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:bottom_margin="10vp"
+        ohos:text="本地缓存"
+        ohos:text_color="black"
+        ohos:text_font="serif"
+        ohos:text_size="20vp"/>
+
+
+</DirectionalLayout>

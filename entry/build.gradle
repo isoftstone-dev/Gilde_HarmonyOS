@@ -1,0 +1,24 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('D:/keystore.p12')
+            storePassword '0000001C7688E2D7631C7D58FCC70E03015ECA5A955E6ADC78A7F0B119A36EEB6AAD3AD6C78D35BA70F7D2D1'
+            keyAlias 'keystore'
+            keyPassword '0000001C7E6B08B19B7DADEC085D2DA48449510520B84BD1DA40759BF553E0B74029FB8926E204A8619FE83D'
+            signAlg 'SHA256withECDSA'
+            profile file('D:/ohosGlideDebug.p7b')
+            certpath file('D:/keystore.cer')
+        }
+    }
+    compileSdkVersion 4
+    defaultConfig {
+        compatibleSdkVersion 3
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testCompile'junit:junit:4.12'
+    implementation project(path: ':glidelibrary')
+}
